@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main-style.css">
+    <script src="https://kit.fontawesome.com/4f5f087331.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark glass-effect">
+        <div class="container">
+            <a class="navbar-brand" href="#">Company Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">My Congés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Welcome to Company Portal</h1>
+                    <p>Manage your work life efficiently with our comprehensive tools and services.</p>
+                    <a href="main.html" class="btn btn-primary btn-lg">Manage My Congés</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box glass-effect">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Leave Management</h3>
+                        <p>Easily manage your time off and track your leave balance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box glass-effect">
+                        <i class="fas fa-clock"></i>
+                        <h3>Time Tracking</h3>
+                        <p>Keep track of your working hours and overtime.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box glass-effect">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Reports</h3>
+                        <p>Access detailed reports and analytics of your time off.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p class="section-subtitle">Learn more about our leave management system</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card glass-effect">
+                    <i class="fas fa-building"></i>
+                    <h3>Our Company</h3>
+                    <p>We are dedicated to providing efficient and user-friendly solutions for managing employee leave requests and tracking time off.</p>
+                </div>
+                <div class="about-card glass-effect">
+                    <i class="fas fa-users"></i>
+                    <h3>Our Team</h3>
+                    <p>Our experienced team works tirelessly to ensure that our leave management system meets the highest standards of quality and reliability.</p>
+                </div>
+                <div class="about-card glass-effect">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Our Values</h3>
+                    <p>We believe in transparency, efficiency, and providing the best possible experience for both employees and managers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p class="section-subtitle">Get in touch with our support team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-effect">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Business Street, Suite 100<br>Business City, BC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-effect">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (234) 567-8900<br>+1 (234) 567-8901</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-effect">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>support@company.com<br>info@company.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form glass-effect">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-effect">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Company Portal. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add scroll event listener for navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
